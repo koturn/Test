@@ -11,13 +11,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <link rel="stylesheet" href="../reveal.js/css/reveal.css">
-<link rel="stylesheet" href="../reveal.js/css/theme/black.css" id="theme">
+<link rel="stylesheet" href="../reveal.js/css/theme/moon.css" id="theme">
 
 <!-- For syntax highlighting -->
 <link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
+  'use strict';
   if (window.location.search.match(/print-pdf/gi)) {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -39,7 +40,7 @@
 <!-- *********************************************************************** -->
 <div class="reveal">
   <div class="slides">
-    <section data-markdown="./TestSlide.md" data-separator="\n\n\n\n\n" data-vertical="\n\n\n">
+    <section data-markdown="./TestSlide.md" data-separator="^\n\n\n\n" data-separator-vertical="^\n\n">
       <script type="text/template">
       </script>
     </section>
@@ -50,6 +51,7 @@
 <script src="../reveal.js/lib/js/head.min.js"></script>
 <script src="../reveal.js/js/reveal.js"></script>
 <script>
+  'use strict';
   // Full list of configuration options available here:
   // https://github.com/hakimel/reveal.js#configuration
   Reveal.initialize({
