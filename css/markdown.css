@@ -1,0 +1,33 @@
+.reveal strong {
+  color: red;
+}
+.reveal em {
+  color: blue;
+}
+
+.reveal pre {
+  font-size: 18px;
+}
+.reveal pre code {
+  max-height: 600px;
+}
+
+.reveal table {
+  border: 1px solid #999999;
+  background-color: #666666;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reveal th {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+.reveal tr:nth-child(odd) {
+  color: #ffffff;
+  background-color: #333333;
+}
+.reveal td {
+  color: #ffffff;
+}
