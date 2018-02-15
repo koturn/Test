@@ -1,17 +1,24 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+}
 .reveal strong {
-  color: red;
+  color: #dd6666;
 }
 .reveal em {
-  color: blue;
+  color: skyblue;
 }
-
 .reveal pre {
   font-size: 18px;
 }
 .reveal pre code {
   max-height: 600px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
-
 .reveal table {
   border: 1px solid #999999;
   background-color: #666666;
